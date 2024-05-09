@@ -324,9 +324,9 @@ this._renderWorkoutMarker(workout);
     if(!data) return;
     this.#workouts = data;
 
-    this.#workouts.forEach(work =>{
-      this._renderWorkout(work);
-    });
+    // this.#workouts.forEach(work =>{
+    //   this._renderWorkout(work);
+    // });
   }
   reset(){
     localStorage.removeItem('workouts');
